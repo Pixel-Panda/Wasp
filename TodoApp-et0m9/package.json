@@ -1,17 +1,21 @@
 {
   "name": "TodoApp",
  "scripts": {
-"migrate": "wasp db migrate-dev exited"
+"migrate": "wasp prisma db migrate -dev"
  }
   "dependencies": {
     "wasp": "file:.wasp/out/sdk/wasp",
-    "react": "^18.2.0"
+    "react": "^18.2.0",
+    "next-auth":"beta",
+    "@auth/core":"latest",
+    "prisma": "latest"
   },
   "devDependencies": {
     "typescript": "^5.1.0",
     "vite": "^4.3.9",
     "@types/react": "^18.0.37",
     "prisma": "4.16.2",
-    "wasp": "latest"
+    "next":"latest",
+    "bun":"latest"
   }
 }
