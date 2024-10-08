@@ -1,7 +1,7 @@
 {
   "name": "TodoApp",
  "scripts": {
-"migrate": "wasp db migrate -dev"
+"migrate": "wasp db migrate-dev"
  },
   "dependencies": {
     "wasp": "file:.wasp/out/sdk/wasp",
