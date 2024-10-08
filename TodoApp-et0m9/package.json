@@ -2,7 +2,7 @@
   "name": "TodoApp",
  "scripts": {
 "migrate": "wasp db migrate -dev"
- }
+ },
   "dependencies": {
     "wasp": "file:.wasp/out/sdk/wasp",
     "react": "^18.2.0",
