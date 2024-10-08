@@ -1,5 +1,8 @@
 {
   "name": "TodoApp",
+ "scripts": {
+"migrate": "wasp db migrate-dev exited"
+ }
   "dependencies": {
     "wasp": "file:.wasp/out/sdk/wasp",
     "react": "^18.2.0"
